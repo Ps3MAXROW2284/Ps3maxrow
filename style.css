@@ -1,6 +1,7 @@
 body{
 	background-image: url('PhotoRoom434q.png');
 background-size: cover;
+margin: 0;
 }
 ul{
 	list-style: none;
@@ -25,6 +26,7 @@ ul{
 			}
 			ul li a:hover{
 				background-color: #EA5452;
+	 		transition-duration: .2s; 
 	}
 				
 ul li ul li{
@@ -32,4 +34,19 @@ ul li ul li{
 	}
 	ul li:hover ul li{
 		display: block;
-	} 
+	}
+	.momo{
+	color: red;
+	background-color: #181818;
+	margin-top: 600px;
+	display: inline-block;
+	padding: 60px;
+	font-size: 20px;
+	opacity: 1.0;
+		}
+		.baba{
+			font-size: 17px;
+			} 
+        section{
+			text-align: center;
+			} 
